@@ -1,0 +1,32 @@
+nav {
+    text-align: center;
+    
+    font-family: sans-serif;
+    background-color: rgb(50, 68, 141);
+}
+
+h1,h3 {
+    text-align: left;
+    color: white;
+}
+
+
+
+
+section {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+article{
+    text-align: center;
+}
+div{
+    display: inline-block;
+}
+
+aside {
+    float:left;
+    font-family: sans-serif;
+    
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/script.js"defer></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <title>Weather App</title>
+</head>
+
+<nav>
+  
+    <h1>Weather App</h1>
+    <h3> Always a nice day!</h3>
+  
+</nav>
+
+
+<body>
+
+
+    <main>
+      <input id="userInput"  placeholder="Text" onchange="searchHistory()">
+
+      <button onclick="returnText()">Submit</button>
+
+      <section class="col-12 col-md-4 col-lg-3">
+        <h2>TODAY'S WEATHER:</h2>
+        <!-- <div id="icon"><img id="wicon" src="" alt="Weather icon"></div> -->
+        <ul>
+         <h2 ><span id="user-task"></span></h2>
+         <h2 >Temp:<span id="t"></span></h2>
+         <h2 >Humidity:<span id="h"></span></h2>
+         <h2 >Wind Speed:<span id="w"></span></h2>
+        </ul>
+      </section>
+<article>
+  <h2>Forecast</h2>
+  <div>
+    <h2>MONDAY</h2>
+    <h4 >Temp:<span id="te"></span></h4>
+    <h4 >Humidity:<span id="hu"></span></h4>
+    <h4 >Wind Speed:<span id="wi"></span></h4>
+  </div>
+  <div>
+    <h2>TUESDAY</h2>
+    <h4 >Temp:<span id="te2"></span></h4>
+    <h4 >Humidity:<span id="hm"></span></h4>
+    <h4 >Wind Speed:<span id="wi2"></span></h4>
+  </div>
+  <div>
+    <h2>WEDNESDAY</h2>
+    <h4 >Temp:<span id="te3"></span></h4>
+    <h4 >Humidity:<span id="hm3"></span></h4>
+    <h4 >Wind Speed:<span id="wi3"></span></h4>
+  </div>
+  <div>
+    <h2>THURSDAY</h2>
+    <h4 ><span id=""></span></h4>
+    <h4 >Temp:<span id="te4"></span></h4>
+    <h4 >Humidity:<span id="hm4"></span></h4>
+    <h4 >Wind Speed:<span id="wi4"></span></h4>
+  </div>
+  <div>
+    <h2>FRIDAY</h2>
+    <h4 ><span id=""></span></h4>
+    <h4 >Temp:<span id="te5"></span></h4>
+    <h4 >Humidity:<span id="hm5"></span></h4>
+    <h4 >Wind Speed:<span id="wi5"></span></h4>
+  </div>
+</article>
+    </main>
+
+    <aside id="historyline" >
+      <h2>History</h2>
+    </aside>
+
+     
+
+
+    
+
+  
+</body>
+
+
+</html>
